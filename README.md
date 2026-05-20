@@ -18,4 +18,4 @@ Currently going deep on full-stack fundamentals — backend (Python, FastAPI, SQ
 
 ## Connect
 
-- 💼 LinkedIn — coming soon
+- 💼 LinkedIn — @abdullahnyle
