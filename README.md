@@ -8,7 +8,7 @@ informatics, and decision-support type problems these days.
 **[Label vs. Reality](https://github.com/abdullahnyle/label-vs-reality)** —
 checking whether supplement labels actually match the dose and evidence
 behind them, using NIH's dietary supplement database (214,780 products).
-Finished the first real finding on creatine, including a methodology
+Finished the first real finding on Creatine, including a methodology
 mistake I had to catch and fix along the way. Turkesterone's next.
 
 ## Other stuff I've built
