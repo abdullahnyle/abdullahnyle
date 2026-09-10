@@ -1,7 +1,7 @@
 # Hey, I'm Abdullah
 
-CS undergrad at UET Lahore. Mostly working with applied data, health
-informatics, and decision-support type problems these days.
+I'm a CS undergrad at UET Lahore. Mostly working with applied data, health informatics, and decision-support type problems these days. 
+Outside of studies I'm into fashion, health supplements, tech, fragrances and working out.
 
 ## What I'm building right now
 
