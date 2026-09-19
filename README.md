@@ -14,7 +14,7 @@ I then reviewed 44 written serving directions and checked selected records again
 
 I built FragBro because I wanted a better way to track what fragrances I actually wear, not just what I own. The local CLI manages my collection, wishlist, and wear history in SQLite, while a FastAPI backend and React frontend expose the data through a read-only web app.
 
-The project grew from a simple personal tracker into a proper small full-stack application. I added validation around wear logging, reproducible checks for the statistics, and consistent date handling so the local data and web view stay in sync. The public demo is intentionally read-only, while changes to the collection and wear history stay local.
+It started as a simple personal tracker and grew into a small full-stack app. I added validation around wear logging, reproducible checks for the statistics, and consistent date handling across the CLI and API. The public demo is intentionally read-only, while collection and wear updates stay local.
 
 ### [Hospital Network Segmentation](https://github.com/abdullahnyle/hospital-network-segmentation)
 
@@ -24,7 +24,7 @@ A Cisco Packet Tracer coursework project where I split a small hospital network 
 
 My module in a 17-part class project for a secure exam system. It uses FastAPI and MongoDB for structured audit logging, authenticated writes and admin queries, and hash-linked entries for integrity checks. The README also explains where those checks stop being trustworthy instead of presenting the hash chain as stronger than it really is.
 
-Label vs. Reality is where I want to keep spending my time. Health data has real stakes and real gaps worth investigating. FragBro was a smaller project driven by the same instinct to look past the first easy answer, applied to something lower stakes.
+Label vs. Reality is the kind of work I want to keep doing: working with real data, checking assumptions when the first answer looks too neat, and ending up with something I can actually defend. I'm especially interested in health informatics, applied data science, information systems and decision support.
 
 ## Find me
 
