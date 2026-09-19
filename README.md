@@ -6,7 +6,13 @@ CS undergrad at UET Lahore. Most of what I build runs on Python and SQL, usually
 
 ### [Label vs. Reality](https://github.com/abdullahnyle/label-vs-reality)
 
-Do supplement labels actually add up? I pulled 214,780 label records from the NIH's dietary supplement database and used creatine as the test case because it has a well-studied reference dose. The answer depends a lot on how the question is framed: choosing the smallest versus the largest recorded amount per label changes the result from 61.0% to 70.7%. I then reviewed written serving directions, checked selected cases against label images, and documented how the findings changed as the method improved. Python, SQLite, tests, and a case study that shows the work rather than just the conclusion.
+This is my main research project, built around a January 2026 NIH Dietary Supplement Label Database download with 214,780 label records.
+
+Using creatine as a case study, I found that the result changed substantially depending on how multiple recorded amounts were handled: 61.0% reached a 3 g reference using the smallest recorded amount per label, compared with 70.7% using the largest.
+
+I then reviewed 44 written serving directions and checked selected records against their original label images. One unresolved discrepancy, DSLD record 337727, was documented and reported to NIH/ODS for clarification rather than being treated as a confirmed error.
+
+The repo includes the Python and SQLite workflow, tests, review records, and the case study showing how the analysis changed as the method improved.
 
 ### [FragBro](https://github.com/abdullahnyle/FragBro)
 
