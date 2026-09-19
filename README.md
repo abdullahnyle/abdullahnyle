@@ -6,24 +6,23 @@ CS undergrad at UET Lahore. Most of what I build runs on Python and SQL, usually
 
 ### [Label vs. Reality](https://github.com/abdullahnyle/label-vs-reality)
 
-Do supplement labels actually add up? I pulled 214,780 label records from the NIH's dietary supplement database and used creatine as the test case, since it's well studied and usually labelled honestly. Turns out the answer depends a lot on how you ask the question: just choosing the smallest vs. the largest recorded amount per label swings the result by almost 10 percentage points. So I went back to the actual serving directions, checked some of them against the label images directly, and wrote up how the numbers moved as I dug deeper. Python, SQLite, real tests, and a case study that shows the work rather than just the conclusion.
+Do supplement labels actually add up? I pulled 214,780 label records from the NIH's dietary supplement database and used creatine as the test case because it has a well-studied reference dose. The answer depends a lot on how the question is framed: choosing the smallest versus the largest recorded amount per label changes the result from 61.0% to 70.7%. I then reviewed written serving directions, checked selected cases against label images, and documented how the findings changed as the method improved. Python, SQLite, tests, and a case study that shows the work rather than just the conclusion.
 
 ### [FragBro](https://github.com/abdullahnyle/FragBro)
 
-I wanted to know what I actually wear versus what just sits on the shelf, so I built something to track it. Started as a command-line tool for my own collection, grew into a small web app with a FastAPI backend and a React frontend. Handles collection records, wishlists, and wear logs, and tells me which bottles are getting real use.
+I wanted to know what I actually wear versus what just sits on the shelf, so I built something to track it. The command-line app records my collection, wishlist, and wear history in SQLite. A FastAPI backend and React frontend provide a read-only public demo of the project.
 
 ### [Hospital Network Segmentation](https://github.com/abdullahnyle/hospital-network-segmentation)
 
-A Cisco Packet Tracer build for a networking course, splitting a hospital network into four zones by clinical risk rather than physical layout, so a compromised guest laptop can't reach a medical device. Includes the configs, a Python checker, and honest notes on what I tested and what I didn't have time to confirm.
+A Cisco Packet Tracer build for a networking course, splitting a hospital network into four zones by clinical risk rather than physical layout. It includes the configurations, a Python policy checker, and notes on what I tested and what remains outside the demonstrated scope.
 
 ### [Secure Audit Log Gateway](https://github.com/abdullahnyle/secure-audit-log-gateway)
 
-My piece of a 17-module group project for a secure exam system: an audit log that's hard to quietly tamper with. Each entry is chained to the one before it with a hash, and I wrote two independent verifiers, one in Python and one in JavaScript, so the check doesn't just trust the server it's checking.
+My component of a 17-module class project for a secure exam system. It provides structured audit logging with FastAPI and MongoDB, authenticated writes and queries, hash-linked log entries, and integrity checks. The repository documents what those checks can and cannot establish.
 
-Label vs. Reality is where I want to keep spending my time, health data has real stakes and real gaps worth digging into. FragBro was a smaller detour into the same instinct, not trusting the first easy answer, just aimed at something lower stakes.
+Label vs. Reality is where I want to keep spending my time. Health data has real stakes and real gaps worth investigating. FragBro was a smaller project driven by the same instinct to look past the first easy answer, applied to something lower stakes.
 
 ## Find me
 
 - LinkedIn: [@abdullahnyle](https://linkedin.com/in/abdullahnyle)
 - Site: [abdullahnyle.dev](https://abdullahnyle.dev)
-- Instagram: [@abdullahnyle](https://www.instagram.com/abdullahnyle/)
