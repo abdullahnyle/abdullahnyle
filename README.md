@@ -26,3 +26,4 @@ Label vs. Reality is where I want to keep spending my time. Health data has real
 
 - LinkedIn: [@abdullahnyle](https://linkedin.com/in/abdullahnyle)
 - Site: [abdullahnyle.dev](https://abdullahnyle.dev)
+- Instagram: [@abdullahnyle](https://www.instagram.com/abdullahnyle/)
