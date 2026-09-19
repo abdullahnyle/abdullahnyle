@@ -6,25 +6,23 @@ CS undergrad at UET Lahore. Most of what I build runs on Python and SQL, usually
 
 ### [Label vs. Reality](https://github.com/abdullahnyle/label-vs-reality)
 
-This is my main research project, built around a January 2026 NIH Dietary Supplement Label Database download with 214,780 label records.
+This is my main research project, built around a January 2026 NIH Dietary Supplement Label Database download with 214,780 label records. Using creatine as a case study, I found that the result changed substantially depending on how multiple recorded amounts were handled: 61.0% reached a 3 g reference using the smallest recorded amount per label, compared with 70.7% using the largest.
 
-Using creatine as a case study, I found that the result changed substantially depending on how multiple recorded amounts were handled: 61.0% reached a 3 g reference using the smallest recorded amount per label, compared with 70.7% using the largest.
-
-I then reviewed 44 written serving directions and checked selected records against their original label images. One unresolved discrepancy, DSLD record 337727, was documented and reported to NIH/ODS for clarification rather than being treated as a confirmed error.
-
-The repo includes the Python and SQLite workflow, tests, review records, and the case study showing how the analysis changed as the method improved.
+I then reviewed 44 written serving directions and checked selected records against their original label images. One unresolved discrepancy, DSLD record 337727, was documented and reported to NIH/ODS for clarification rather than being treated as a confirmed error. The repo includes the Python and SQLite workflow, tests, review records, and the case study showing how the analysis changed as the method improved.
 
 ### [FragBro](https://github.com/abdullahnyle/FragBro)
 
-I wanted to know what I actually wear versus what just sits on the shelf, so I built something to track it. The command-line app records my collection, wishlist, and wear history in SQLite. A FastAPI backend and React frontend provide a read-only public demo of the project.
+I built FragBro because I wanted a better way to track what fragrances I actually wear, not just what I own. The local CLI manages my collection, wishlist, and wear history in SQLite, while a FastAPI backend and React frontend expose the data through a read-only web app.
+
+The project grew from a simple personal tracker into a proper small full-stack application. I added validation around wear logging, reproducible checks for the statistics, and consistent date handling so the local data and web view stay in sync. The public demo is intentionally read-only, while changes to the collection and wear history stay local.
 
 ### [Hospital Network Segmentation](https://github.com/abdullahnyle/hospital-network-segmentation)
 
-A Cisco Packet Tracer build for a networking course, splitting a hospital network into four zones by clinical risk rather than physical layout. It includes the configurations, a Python policy checker, and notes on what I tested and what remains outside the demonstrated scope.
+A Cisco Packet Tracer coursework project where I split a small hospital network into four VLANs and used router ACLs to enforce a simple access policy. The repo includes the router and switch configurations, a Python policy checker, and notes on what was tested, what was corrected, and what remains outside the demonstrated scope.
 
 ### [Secure Audit Log Gateway](https://github.com/abdullahnyle/secure-audit-log-gateway)
 
-My component of a 17-module class project for a secure exam system. It provides structured audit logging with FastAPI and MongoDB, authenticated writes and queries, hash-linked log entries, and integrity checks. The repository documents what those checks can and cannot establish.
+My module in a 17-part class project for a secure exam system. It uses FastAPI and MongoDB for structured audit logging, authenticated writes and admin queries, and hash-linked entries for integrity checks. The README also explains where those checks stop being trustworthy instead of presenting the hash chain as stronger than it really is.
 
 Label vs. Reality is where I want to keep spending my time. Health data has real stakes and real gaps worth investigating. FragBro was a smaller project driven by the same instinct to look past the first easy answer, applied to something lower stakes.
 
