@@ -1,6 +1,6 @@
 # Hey, I'm Abdullah
 
-CS undergrad at UET Lahore. Most of what I build runs on Python and SQL, usually pointed at health data, databases, or some question I actually want the answer to. Outside of that I'm into fashion, supplements and health, fragrances, and working out.
+CS undergrad at UET Lahore. Most of what I build runs on Python and SQL, usually pointed at health data, databases, or some question I actually want the answer to. Outside of that I'm into fashion, supplements and health, fragrances, tech and working out.
 
 ## Projects
 
