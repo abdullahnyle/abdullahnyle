@@ -26,6 +26,8 @@ A Cisco Packet Tracer coursework project where I split a small hospital network 
 
 My module in a 17-part class project for a secure exam system. It uses FastAPI and MongoDB for structured audit logging, authenticated writes and admin queries, and hash-linked entries for integrity checks. The README also explains where those checks stop being trustworthy instead of presenting the hash chain as stronger than it really is.
 
+## What I'm working towards
+
 The work I want to keep doing sits between health information and the people using it: checking what the data really says, finding out what people actually take from it, and designing something clearer. I'm especially interested in health informatics, consumer health and user research.
 
 ## Find me
