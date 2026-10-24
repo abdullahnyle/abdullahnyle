@@ -1,14 +1,16 @@
 # Hey, I'm Abdullah
 
-CS undergrad at UET Lahore. Most of what I build runs on Python and SQL, usually pointed at health data, databases, or some question I actually want the answer to. Outside of that I'm into fashion, supplements and health, fragrances, tech and working out.
+I'm a CS student at UET Lahore, interested in health informatics: how people make sense of health information, and how it could be made clearer for them. I mostly work in Python and SQL, but the part I enjoy most is finding out what's really going on, whether that's in a dataset or in how people use it. Outside of that I'm into fashion, supplements and health, fragrances, tech and working out.
 
 ## Projects
 
 ### [Label vs. Reality](https://github.com/abdullahnyle/label-vs-reality)
 
-This is my main research project, built around a January 2026 NIH Dietary Supplement Label Database download with 214,780 label records. Using creatine as a case study, I found that the result changed substantially depending on how multiple recorded amounts were handled: 61.0% reached a 3 g reference using the smallest recorded amount per label, compared with 70.7% using the largest.
+My main project. I took a January 2026 download of the NIH Dietary Supplement Label Database (214,780 labels) and asked a simple question: how often do creatine labels reach a 3 g daily amount? The answer depended on one choice. Using the smallest recorded amount on each label, 61.0% did. Using the largest, 70.7%.
 
-I then reviewed 44 written serving directions and checked selected records against their original label images. One unresolved discrepancy, DSLD record 337727, was documented and reported to NIH/ODS for clarification rather than being treated as a confirmed error. The repo includes the Python and SQLite workflow, tests, review records, and the case study showing how the analysis changed as the method improved.
+So I went back to the source, read 44 sets of serving directions and checked original label images by hand. One record didn't match its printed label, so I documented it and reported it to the NIH's Office of Dietary Supplements instead of calling it an error. The repo has the full Python and SQLite workflow, tests, and every review record.
+
+Next, I'm taking it to the people side: talking to creatine users in different countries about how they read labels and decide how much to take.
 
 ### [FragBro](https://github.com/abdullahnyle/FragBro)
 
@@ -24,10 +26,9 @@ A Cisco Packet Tracer coursework project where I split a small hospital network 
 
 My module in a 17-part class project for a secure exam system. It uses FastAPI and MongoDB for structured audit logging, authenticated writes and admin queries, and hash-linked entries for integrity checks. The README also explains where those checks stop being trustworthy instead of presenting the hash chain as stronger than it really is.
 
-Label vs. Reality is the kind of work I want to keep doing: working with real data, checking assumptions when the first answer looks too neat, and ending up with something I can actually defend. I'm especially interested in health informatics, applied data science, information systems and decision support.
+The work I want to keep doing sits between health information and the people using it: checking what the data really says, finding out what people actually take from it, and designing something clearer. I'm especially interested in health informatics, consumer health and user research.
 
 ## Find me
 
 - LinkedIn: [@abdullahnyle](https://linkedin.com/in/abdullahnyle)
 - Site: [abdullahnyle.dev](https://abdullahnyle.dev)
-- Instagram: [@abdullahnyle](https://www.instagram.com/abdullahnyle/)
